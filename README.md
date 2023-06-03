@@ -1,2 +1,2 @@
-# VIX_MOVE_Corr
+# VIX MOVE Disconect
 Analyzing VIX / MOVE disconnect by including dispersion 
