@@ -4,10 +4,13 @@ Analyzing VIX / MOVE disconnect by including dispersion.
 # Background 
 Currently there is a disconnect between VIX and MOVE
 ![image](https://github.com/diegodalvarez/VIX_MOVE_Corr/assets/48641554/4aade782-f5e7-490b-b71d-6a4a0588bc8d)
+
 We can compare the differences by using rolling z-scores
 ![image](https://github.com/diegodalvarez/VIX_MOVE_Corr/assets/48641554/e391441a-ce82-4b8d-a06b-8399b0313477)
+
 If we look at distribution of differences
 ![image](https://github.com/diegodalvarez/VIX_MOVE_Corr/assets/48641554/c8167152-a487-46ca-bb7f-d4d5dccb68cc)
+
 A consideration to make is that rolling z-scores is not suitable for financial assets since they assume normality and specifically for volatlity-related products. But in this case we will use them because we are measuring realtive value. We should also account that VIX and MOVE tend to have autoregressive properties.
 
 # Motivation
